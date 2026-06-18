@@ -6,7 +6,8 @@ from reportlab.lib.styles import getSampleStyleSheet
 import io
 import numpy as np
 from sklearn.linear_model import LinearRegression
-genai.configure(api_key="")
+import os
+genai.configure(api_key=os.getenv("GEMINI-API-KEY")
 st.title("AI-Powered Retail Sales Analytics Platform")
 
 st.markdown(
