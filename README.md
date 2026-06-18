@@ -170,3 +170,20 @@
 
 # 
 
+## Project Structure
+
+```text
+AI-Powered-Business-Analytics-Platform
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── Screenshots/
+│
+├── SQL/
+│   └── Superstore_sales_analysis_SQL_Insights.sql
+│
+├── Superstore Sales Insights.pbix
+├── superstore_final_dataset.csv
+└── superstore_sales_cleaned.csv
+```
