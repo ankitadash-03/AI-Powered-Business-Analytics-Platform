@@ -7,7 +7,7 @@ import io
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import os
-genai.configure(api_key=os.getenv("GEMINI-API-KEY")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 st.title("AI-Powered Retail Sales Analytics Platform")
 
 st.markdown(
