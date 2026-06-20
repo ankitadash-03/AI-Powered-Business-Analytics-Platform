@@ -127,37 +127,30 @@ Compared to the original Superstore Sales Analysis project, the following enhanc
 
 # Power BI Dashboards
 
-## Sales Performance Dashboard
+### Sales Performance Dashboard
 
 Provides an overview of revenue trends, regional performance analysis, category-wise sales insights, KPI monitoring, order analysis, and business growth tracking.
 
-![Sales Dashboard](Screenshots/sales_dasboard.png)
+![Sales Dashboard](Screenshots/sales_dashboard.png)
 
----
-
-## Customer Analysis Dashboard
+### Customer Analysis Dashboard
 
 Analyzes customer behavior, customer lifetime value (LTV), retention metrics, segmentation analysis, and identifies high-value customers contributing to business growth.
 
-![Customer Dashboard](Screenshots/customer_dasboard.png)
+![Customer Dashboard](Screenshots/customer_dashboard.png)
 
----
-
-## Product Analysis Dashboard
+### Product Analysis Dashboard
 
 Evaluates product performance, category-wise sales contribution, top-selling products, and product-level trends to support data-driven decision making.
 
-![Product Dashboard](Screenshots/product_dasboard.png)
+![Product Dashboard](Screenshots/product_dashboard.png)
 
----
-
-## Executive Dashboard
+### Executive Dashboard
 
 Provides executive-level insights through KPI monitoring, state-wise sales analysis, DAX measures, drill-through functionality, synchronized slicers, interactive maps, and custom report tooltips.
 
-![Executive Dashboard](Screenshots/executive_dasboard.png)
+![Executive Dashboard](Screenshots/executive_dashboard.png)
 
----
 
 ### Advanced Power BI Features
 
@@ -197,3 +190,36 @@ This platform helps organizations:
 * Role-based dashboard access
 * Real-time business monitoring
 
+# Project Structure
+
+```text
+AI-Powered-Business-Analytics-Platform
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── Screenshots/
+│   ├── dashboard_home.png
+│   ├── AI_Insights.png
+│   ├── AI_Recommendations.png
+│   ├── business_insights.png
+│   ├── category_sales.png
+│   ├── monthly_trend.png
+│   ├── region_sales.png
+│   ├── sales_forecast.png
+│   ├── top_customers.png
+│   ├── top_products.png
+│   ├── upload_CSV.png
+│   ├── sales_dashboard.png
+│   ├── customer_dashboard.png
+│   ├── product_dashboard.png
+│   └── executive_dashboard.png
+│
+├── SQL/
+│   └── Superstore_sales_analysis_SQL_Insights.sql
+│
+├── Superstore Sales Insights.pbix
+├── superstore_final_dataset.csv
+└── superstore_sales_cleaned.csv
+```
